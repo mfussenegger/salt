@@ -21,7 +21,7 @@ properties([
     ])
 ])
 
-runTests(
+runSplitTests(
     env: env,
     distro_name: distro_name,
     distro_version: distro_version,
